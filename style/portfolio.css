@@ -1,5 +1,6 @@
 :root {
   --branding-color: #ffffff;
+  --second-branding-color: #000000;
   --heading-font-family: "Prata", system-ui;
   --default-font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +10,9 @@ body {
 }
 h1 {
   font-weight: bold;
+  text-align: center;
   font-size: 96px;
+  line-height: 1.5;
   font-family: var(--heading-font-family);
   color: var(--branding-color);
 }
@@ -19,6 +22,15 @@ h2 {
   color: var(--branding-color);
 }
 
+h3 {
+  font-size: 32px;
+  color: var(--second-branding-color);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
 .hero {
   padding: 100px 20px;
   background-color: #dedcdd;
@@ -30,4 +42,22 @@ h2 {
   line-height: 27px;
   padding: 12px 20px;
   border: 1px solid white;
+}
+
+.btn-branding-outline {
+  border-radius: 30px;
+  color: var(--second-branding-color);
+  line-height: 27px;
+  padding: 12px 20px;
+  border: 1px solid black;
+}
+
+.project-description {
+  padding: 20px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 52px;
+  }
 }
