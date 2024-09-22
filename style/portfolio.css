@@ -1,7 +1,7 @@
 :root {
   --branding-color: #ffffff;
   --second-branding-color: #000000;
-  --heading-font-family: "Prata", system-ui;
+  --heading-font-family: "Playfair Display", serif;
   --default-font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 48px;
   color: var(--second-branding-color);
 }
 
@@ -39,25 +39,54 @@ p {
 .btn-branding {
   border-radius: 30px;
   color: var(--branding-color);
+  font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
   border: 1px solid white;
+}
+
+.btn-branding:hover {
+  color: var(--second-branding-color);
+  background-color: var(--branding-color);
 }
 
 .btn-branding-outline {
   border-radius: 30px;
   color: var(--second-branding-color);
   line-height: 27px;
-  padding: 12px 20px;
+  font-size: 24px;
+  padding: 0 auto;
   border: 1px solid black;
+}
+
+.btn-branding-outline:hover {
+  color: var(--branding-color);
+  background-color: var(--second-branding-color);
 }
 
 .project-description {
   padding: 20px 60px;
 }
 
+p.text-start {
+  font-family: var(--heading-font-family);
+  font-size: 38px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 52px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  p.text-start {
+    font-size: 24px;
+  }
+  .btn-branding-outline {
+    font-size: 18px;
   }
 }
