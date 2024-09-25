@@ -39,6 +39,19 @@ p {
     rgb(207, 211, 236) 100.2%
   );
 }
+.about-section {
+  padding: 100px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  color: var(--second-branding-color);
+}
+
+.about-section h2 {
+  font-size: 42px;
+  color: var(--second-branding-color);
+}
 
 .btn-branding {
   border-radius: 30px;
@@ -59,6 +72,7 @@ p {
   color: var(--second-branding-color);
   line-height: 27px;
   font-size: 24px;
+  margin-bottom: 20px;
   padding: 0 auto;
   border: 1px solid black;
 }
