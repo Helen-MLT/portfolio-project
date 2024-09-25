@@ -39,18 +39,21 @@ p {
     rgb(207, 211, 236) 100.2%
   );
 }
-.about-section {
+.content-container {
   padding: 100px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
   color: var(--second-branding-color);
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 42px;
   color: var(--second-branding-color);
+}
+.content p {
+  font-size: 18px;
 }
 
 .btn-branding {
