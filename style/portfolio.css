@@ -32,13 +32,46 @@ p {
   line-height: 1.5;
 }
 .hero {
-  padding: 100px 20px;
+  padding: 100px 50px;
   background: linear-gradient(
     109.6deg,
     rgb(233, 228, 237) 30.1%,
     rgb(207, 211, 236) 100.2%
   );
 }
+
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 10px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  font-size: 18px;
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--second-branding-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #838181;
+}
+
+.nav-container,
+.projects-container {
+  padding-left: 40px;
+}
+
 .content-container {
   padding: 100px 20px;
 }
