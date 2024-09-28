@@ -126,7 +126,55 @@ p.text-start {
   font-family: var(--heading-font-family);
   font-size: 38px;
 }
+.hero-footer {
+  background-color: var(--second-branding-color);
+  padding: 100px 50px;
+  font-size: 18px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
 
+footer .email-link:hover,
+footer a:hover {
+  color: #999999;
+}
+
+footer li {
+  list-style: none;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+.contact-box h3 {
+  font-size: 42px;
+  color: var(--branding-color);
+}
+.contact-box p {
+  font-size: 18px;
+  color: var(--branding-color);
+}
+.btn-branding-footer {
+  border-radius: 30px;
+  color: var(--second-branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  background-color: var(--branding-color);
+  border: 1px solid white;
+}
+.btn-branding-footer:hover {
+  color: var(--branding-color);
+  background-color: var(--second-branding-color);
+  border: 1px solid white;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
@@ -142,5 +190,8 @@ p.text-start {
   }
   .btn-branding-outline {
     font-size: 18px;
+  }
+  .contact-box h3 {
+    font-size: 30px;
   }
 }
