@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="I'm a front-end engineer based in Belgium. Contact me."
+    />
+    <title>Contact me - Hélèna Milletti</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,17 +28,37 @@
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
   <body>
+    <div class="nav-container">
+      <nav class="d-flex justify-content-start">
+        <a href="/" title="Home">
+          <img src="images/asterisk.png" class="logo" alt="Hélèna's logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="text-start mb-5">Let's get in touch</h1>
         <hr />
         <h3>Email</h3>
-        <p><a href="mailto:h.milletti@gmail.com">h.milletti@gmail.com</a></p>
+        <p>
+          <a href="mailto:h.milletti@gmail.com" title="Email me"
+            >h.milletti@gmail.com</a
+          >
+        </p>
         <hr />
         <h3>Linkedin</h3>
         <p>
           <a
             href="https://www.linkedin.com/in/h%C3%A9l%C3%A8na-milletti-214915229/"
+            title="Linkedin"
             target="_blank"
             >Hélèna Milletti</a
           >
@@ -42,10 +66,75 @@
         <hr />
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/touim/" target="_blank">@touim</a>
+          <a
+            href="https://www.instagram.com/touim/"
+            target="_blank"
+            title="Instagram"
+            >@touim</a
+          >
         </p>
         <hr />
       </div>
     </div>
+    <footer>
+      <div class="hero-footer">
+        <div class="contact-box">
+          <h3>Work Inquiry</h3>
+
+          <p>Let's work together</p>
+          <a
+            href="/contact.html"
+            class="btn btn-branding-footer mb-5"
+            title="Contact me"
+            >Contact me</a
+          >
+        </div>
+
+        <a
+          href="mailto:h.milletti@gmail.com"
+          class="email-link"
+          title="Email me"
+          >h.milletti@gmail.com</a
+        >
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/touim/"
+                target="_blank"
+                title="Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/h%C3%A9l%C3%A8na-milletti-214915229/"
+                target="_blank"
+                title="Linkedin"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Helen-MLT"
+                target="_blank"
+                title="Github"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Hélèna and it is open-sourced on
+          <a
+            href="https://github.com/Helen-MLT"
+            class="btn-branding-link"
+            target="_blank"
+            title="Github"
+            >Github</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

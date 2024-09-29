@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="I'm a front-end engineer based in Belgium. Check out my work."
+    />
+    <title>Work - Hélèna Milletti</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,6 +28,21 @@
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
   <body>
+    <div class="nav-container">
+      <nav class="d-flex justify-content-start">
+        <a href="/" title="Home">
+          <img src="images/asterisk.png" class="logo" alt="Hélèna's logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li class="active"><a href="/work.html" title="Work">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="text-start mb-5">Check out what I've been working on</h1>
@@ -31,32 +50,101 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/coffee-recipe.png"
-              alt=""
+              alt="Coffee Recipe Generator Preview"
               class="img-fluid rounded mb-3"
             />
             <h3 class="m-0">Coffee Recipe Project</h3>
-            <p>Build with HTML and CSS</p>
+            <p>
+              Build with HTML, CSS, JavaScript. I've also integrated APIs and an
+              AI that generates a recipe based on the chosen ingredient.
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="images/weather.png"
-              alt=""
+              alt="Weather App Preview"
+              s
               class="img-fluid rounded mb-3"
             />
             <h3 class="m-0">Weather Project</h3>
-            <p>Build with HTML, CSS and JavaScript</p>
+            <p>
+              Build with HTML, CSS, JavaScript and API in order to get the
+              forecast and weather at the chosen location.
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="images/world-clock.png"
-              alt=""
+              alt="World Clock App Preview"
               class="img-fluid rounded mb-3"
             />
             <h3 class="m-0">World Clock Project</h3>
-            <p>Build with HTML, CSS and JavaScript</p>
+            <p>
+              Build with HTML, CSS, JavaScript, Moment.js and Moment Timezone.
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="hero-footer">
+        <div class="contact-box">
+          <h3>Work Inquiry</h3>
+
+          <p>Let's work together</p>
+          <a
+            href="/contact.html"
+            class="btn btn-branding-footer mb-5"
+            title="Contact me"
+            >Contact me</a
+          >
+        </div>
+
+        <a
+          href="mailto:h.milletti@gmail.com"
+          class="email-link"
+          title="Email me"
+          >h.milletti@gmail.com</a
+        >
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/touim/"
+                target="_blank"
+                title="Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/h%C3%A9l%C3%A8na-milletti-214915229/"
+                target="_blank"
+                title="Linkedin"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Helen-MLT"
+                target="_blank"
+                title="Github"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Hélèna and it is open-sourced on
+          <a
+            href="https://github.com/Helen-MLT"
+            class="btn-branding-link"
+            target="_blank"
+            title="Github"
+            >Github</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

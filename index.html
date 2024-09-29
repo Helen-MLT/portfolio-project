@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="I'm a front-end engineer based in Belgium."
+    />
+    <title>Front-end developer - Hélèna Milletti</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,12 +30,14 @@
   <body>
     <div class="nav-container">
       <nav class="d-flex justify-content-start">
-        <a href="/"> <img src="images/asterisk.png" class="logo" /></a>
+        <a href="/" title="Home">
+          <img src="images/asterisk.png" class="logo" alt="Hélèna's logo"
+        /></a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -39,7 +45,9 @@
       <h1 class="mb-5">Hélèna Milletti</h1>
       <h2 class="mb-4">Frond-end developer based in Belgium</h2>
       <div>
-        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-start m-5">Featured projects✦</p>
@@ -49,16 +57,22 @@
           <img
             src="images/coffee-recipe.png"
             class="img-fluid rounded"
-            alt="Coffee Recipe Generator"
+            alt="Coffee Recipe Generator Preview"
           />
         </div>
         <div class="col-md-6">
           <div class="project-description">
             <h3 class="mb-3">Coffee Recipe Project</h3>
             <p class="mb-3">
-              Paragraph placeholder about coffee recipe project
+              Build with HTML, CSS, JavaScript. I've also integrated APIs and an
+              AI that generates a recipe based on the chosen ingredient.
             </p>
-            <a href="#" class="btn btn-branding-outline">View Demo</a>
+            <a
+              href="https://coffee-byhelen.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Demo</a
+            >
           </div>
         </div>
       </div>
@@ -68,14 +82,22 @@
           <img
             src="images/weather.png"
             class="img-fluid rounded"
-            alt="Coffee Recipe Generator"
+            alt="Weather App Preview"
           />
         </div>
         <div class="col-md-6">
           <div class="project-description">
             <h3 class="mb-3">Weather Project</h3>
-            <p class="mb-3">Paragraph placeholder about the project</p>
-            <a href="#" class="btn btn-branding-outline">View Demo</a>
+            <p class="mb-3">
+              Build with HTML, CSS, JavaScript and API in order to get the
+              forecast and weather at the chosen location.
+            </p>
+            <a
+              href="https://meteoappbyhelen.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Demo</a
+            >
           </div>
         </div>
       </div>
@@ -85,14 +107,21 @@
           <img
             src="images/world-clock.png"
             class="img-fluid rounded mb-3"
-            alt="Coffee Recipe Generator"
+            alt="World-Clock App Preview"
           />
         </div>
         <div class="col-md-6">
           <div class="project-description">
             <h3 class="mb-3">World Clock Project</h3>
-            <p class="mb-3">Paragraph placeholder about the project</p>
-            <a href="#" class="btn btn-branding-outline">View Demo</a>
+            <p class="mb-3">
+              Build with HTML, CSS, JavaScript, Moment.js and Moment Timezone.
+            </p>
+            <a
+              href="https://world-clock-byhelen.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Demo</a
+            >
           </div>
         </div>
       </div>
@@ -104,16 +133,27 @@
           <h3>Work Inquiry</h3>
 
           <p>Let's work together</p>
-          <a href="" class="btn btn-branding-footer mb-5">Contact me</a>
+          <a
+            href="/contact.html"
+            class="btn btn-branding-footer mb-5"
+            title="Contact me"
+            >Contact me</a
+          >
         </div>
 
-        <a href="mailto:h.milletti@gmail.com" class="email-link"
+        <a
+          href="mailto:h.milletti@gmail.com"
+          class="email-link"
+          title="Email me"
           >h.milletti@gmail.com</a
         >
         <div class="social-links">
           <ul>
             <li>
-              <a href="https://www.instagram.com/touim/" target="_blank"
+              <a
+                href="https://www.instagram.com/touim/"
+                target="_blank"
+                title="Instagram"
                 >Instagram</a
               >
             </li>
@@ -121,14 +161,30 @@
               <a
                 href="https://www.linkedin.com/in/h%C3%A9l%C3%A8na-milletti-214915229/"
                 target="_blank"
+                title="Linkedin"
                 >Linkedin</a
               >
             </li>
             <li>
-              <a href="https://github.com/Helen-MLT" target="_blank">Github</a>
+              <a
+                href="https://github.com/Helen-MLT"
+                target="_blank"
+                title="Github"
+                >Github</a
+              >
             </li>
           </ul>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Hélèna and it is open-sourced on
+          <a
+            href="https://github.com/Helen-MLT"
+            class="btn-branding-link"
+            target="_blank"
+            title="Github"
+            >Github</a
+          >
+        </p>
       </div>
     </footer>
   </body>
