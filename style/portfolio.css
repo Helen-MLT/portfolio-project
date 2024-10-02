@@ -73,7 +73,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 60px 5px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -117,10 +117,6 @@ nav li.active a {
 .btn-branding-outline:hover {
   color: var(--branding-color);
   background-color: var(--second-branding-color);
-}
-
-.project-description {
-  padding: 20px 60px;
 }
 
 p.text-start {
