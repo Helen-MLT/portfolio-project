@@ -1,7 +1,7 @@
 :root {
   --branding-color: #ffffff;
   --second-branding-color: #000000;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Source Serif 4";
   --default-font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,17 +9,16 @@ body {
   font-family: var(--default-font-family);
 }
 h1 {
-  font-weight: bold;
-  text-align: center;
-  font-size: 140px;
+  font-weight: 500;
+  font-size: 180px;
   line-height: 1.5;
   font-family: var(--heading-font-family);
-  color: var(--branding-color);
+  color: var(--second-branding-color);
 }
 
 h2 {
   font-size: 24px;
-  color: var(--branding-color);
+  color: var(--second-branding-color);
 }
 
 h3 {
@@ -31,15 +30,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-.hero {
-  padding: 100px 50px;
-  background: linear-gradient(
-    109.6deg,
-    rgb(233, 228, 237) 30.1%,
-    rgb(207, 211, 236) 100.2%
-  );
+header {
+  padding: 50px 50px;
 }
-
 .logo {
   max-width: 150px;
 }
@@ -73,7 +66,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 60px 5px;
+  padding: 40px 10px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -185,8 +178,9 @@ footer p {
   h1 {
     font-size: 70px;
   }
-  h3 {
-    font-size: 30px;
+  h3,
+  h2 {
+    font-size: 24px;
   }
   p {
     font-size: 16px;
