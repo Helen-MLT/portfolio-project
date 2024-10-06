@@ -194,4 +194,10 @@ footer p {
   .contact-box h3 {
     font-size: 30px;
   }
+  .content-container h1 {
+    font-size: 50px;
+  }
+  .content-container h2 {
+    font-size: 36px;
+  }
 }
