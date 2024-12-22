@@ -10,14 +10,14 @@ body {
 }
 h1 {
   font-weight: 500;
-  font-size: 120px;
+  font-size: 100px;
   line-height: 1.5;
   font-family: var(--default-font-family);
   color: var(--second-branding-color);
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 42px;
   color: var(--second-branding-color);
 }
 
@@ -34,9 +34,7 @@ p {
 header {
   padding: 50px 50px;
 }
-.logo {
-  max-width: 150px;
-}
+
 nav {
   padding: 10px 0;
 }
@@ -49,16 +47,15 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 50px;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 nav a {
   text-decoration: none;
   color: var(--second-branding-color);
-  transition: all 100ms ease-in-out;
 }
 nav a:hover,
 nav li.active a {
-  color: #838181;
+  text-decoration: underline;
 }
 
 .nav-container,
